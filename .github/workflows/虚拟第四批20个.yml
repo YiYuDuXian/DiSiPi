@@ -2,7 +2,7 @@ name: 虚拟第四批20个
 on:
   workflow_dispatch:
   schedule:
-     - cron: '15 */1 * * *'
+     - cron: '20 */1 * * *'
 jobs:
   build:
     runs-on: ubuntu-latest      
